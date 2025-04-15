@@ -2,7 +2,7 @@ import streamlit as st
 from openai import OpenAI
 
 # Get chatbot type from query parameters
-chatbot_type = int(st.query_params.get("type", 1))
+chatbot_type = 3
 
 # Define different chatbot behaviors
 chatbot_configs = {
